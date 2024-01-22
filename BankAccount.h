@@ -14,14 +14,14 @@ public:
 	string getClientName();
 
 	void setCurrency(char c);
-	string getCurrency();
+	char getCurrency();
 
-	string getBalance();
+	float getBalance();
 
 	void PrintAccountInfo();
 
-	void withdraw(string amount);
-	void deposit(string amount); 
+	void withdraw(float amount);
+	void deposit(float amount); 
 
 
 
