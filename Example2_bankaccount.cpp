@@ -2,10 +2,21 @@
 //
 
 #include <iostream>
-
+#include "BankAccount.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+    BankAccount ba1;
+
+    ba1.PrintAccountInfo();
+
+
+    BankAccount ba2("Jason", 2000, '$');
+
+    ba2.PrintAccountInfo();
+
+
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
