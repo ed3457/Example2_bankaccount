@@ -44,3 +44,17 @@ void BankAccount::deposit(float amount)
 {
 	balance = balance + amount;
 }
+
+BankAccount::BankAccount()
+{
+	setClientName("not set yet");
+	setCurrency('$');
+	balance = 0;
+}
+
+BankAccount::BankAccount(string name, float b, char c)
+{
+	setClientName(name);
+	setCurrency(c);
+	balance = b;
+}
